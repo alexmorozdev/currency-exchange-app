@@ -64,10 +64,10 @@ function Main() {
 
   return (
     <div className="main">
-      <h2>Currency Convertaion</h2>
+      <h2>Currency convertation</h2>
       <div className="boxes">
         <div className="currency-box">
-          <label>Amount of money: </label>
+          <label>Amount: </label>
           <input
             value={firstInput}
             type="number"
@@ -83,7 +83,7 @@ function Main() {
         </div>
 
         <div className="currency-box">
-          <label>Amount of money: </label>
+          <label>Amount: </label>
           <input
             value={secondInput}
             type="number"

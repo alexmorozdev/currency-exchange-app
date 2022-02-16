@@ -2,7 +2,8 @@
   margin: 0;
 }
 .app {
-  max-width: 50%;
+  max-width: 500px;
+  min-width: 400px;
   margin: 10px auto;
 }
 
@@ -18,17 +19,31 @@
   margin: 5px auto;
   padding: 10px;
   background-color: lightsteelblue;
-  height: 300px;
+  height: 200px;
   text-align: center;
   border-radius: 10px;
 }
 
 .currency-box {
   margin: 10px auto;
-  width: 70%;
+  width: 80%;
   text-align: center;
 }
 input {
-  max-width: 150px;
-  margin: 5px 10px;
+  max-width: 100px;
+  margin: 5px;
+}
+
+@media (max-width: 550px) {
+  .app {
+    min-width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 280px) {
+  .main {
+    height: 250px;
+  }
 }
